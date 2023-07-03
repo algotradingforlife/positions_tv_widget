@@ -1,0 +1,41 @@
+.positions__element {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.positions__element__text {
+  color: #d1d4dc;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  display: grid;
+  place-content: center;
+}
+
+.positions__element__text--profit {
+  color: #22ab94;
+}
+
+.positions__element__text--loss {
+  color: #f23645;
+}
+
+.positions__element__close {
+  align-items: center;
+  border-radius: 4px;
+  background-color: #2a2e39;
+  color: #787b86;
+  display: inline-flex;
+  font-size: 0;
+  height: 22px;
+  justify-content: center;
+  min-width: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.positions__element__close:hover {
+  color: #d1d4dc;
+  background-color: #363a45;
+}
